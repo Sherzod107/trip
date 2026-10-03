@@ -1,0 +1,158 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .imgtrip {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .header-nav .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .catalog-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .catalog-card {
+        flex: 0 0 calc(50% - 20px);
+        margin-bottom: 50px;
+    }
+    .imgtrip {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .header-banner {
+        height: 550px;
+    }
+    .contacts-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .contacts-left, .contacts-right {
+        width: 100%;
+        text-align: center;
+    }
+    .about h2, .catalog-title, .contacts-title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+    .logo {
+        font-size: 45px;
+    }
+    nav a {
+        font-size: 30px;
+        margin: 10px 15px;
+    }
+    .imgtrip {
+        font-size: 85px;
+    }
+    .travelgo {
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 35px;
+        padding: 25px 60px;
+    }
+    .about h2, .catalog-title, .contacts-title {
+        font-size: 55px;
+    }
+    .about-text p {
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .catalog-card p {
+        font-size: 38px;
+    }
+    .card-box {
+        height: 450px;
+    }
+    .search-box input {
+        height: 70px;
+        font-size: 30px;
+    }
+    .search-box button {
+        height: 70px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 390px) {
+    .logo {
+        font-size: 50px;
+    }
+    nav a {
+        font-size: 34px;
+        display: block;
+        margin: 15px 0;
+    }
+    .header-nav .container {
+        gap: 40px;
+    }
+    .imgtrip {
+        font-size: 75px;
+    }
+    .travelgo {
+        font-size: 35px;
+    }
+    .btn {
+        font-size: 40px;
+        width: 100%;
+        padding: 30px 0;
+    }
+    .about h2, .catalog-title, .contacts-title {
+        font-size: 60px;
+    }
+    .about-text p {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+    .catalog-card p {
+        font-size: 45px;
+    }
+    .card-box {
+        height: 500px;
+    }
+    .catalog-row {
+        flex-direction: column;
+        gap: 80px;
+    }
+    .contacts-right p {
+        font-size: 40px;
+    }
+    .contacts-left p {
+        font-size: 32px;
+    }
+    .footer-nav a {
+        font-size: 36px;
+    }
+    .copy {
+        font-size: 24px;
+    }
+}
